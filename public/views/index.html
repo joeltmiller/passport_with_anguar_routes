@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="passportApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="vendors/angular/angular.min.js"></script>
+    <script src="vendors/angular-route/angular-route.min.js"></script>
+    <script src="assets/client.min.js"></script>
+    <base href="/" />
+  </head>
+  <body ng-controller="MainController as main">
+    {{main.message}}
+    <div ng-view>
+
+    </div>
+
+    <!-- <ng-view></ng-view> -->
+
+  </body>
+</html>
