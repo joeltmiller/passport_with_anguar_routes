@@ -1,2 +1,3 @@
-# passport_with_anguar_routes
-# passport_with_anguar_routes
+# Passport with Angular Routes
+
+A MEAN Stack application using Angular Routes and Passport.js
